@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13443" started-at="2019-03-30T17:15:29Z" finished-at="2019-03-30T17:15:43Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="7333" started-at="2019-03-30T17:15:29Z" finished-at="2019-03-30T17:15:37Z">
+      <class name="parameterization.Parameterstest">
+        <test-method status="PASS" signature="browserType(java.lang.String)[pri:0, instance:parameterization.Parameterstest@2a2d45ba]" name="browserType" is-config="true" duration-ms="4578" started-at="2019-03-30T17:15:29Z" finished-at="2019-03-30T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization.Parameterstest@2a2d45ba]" name="f" duration-ms="2732" started-at="2019-03-30T17:15:34Z" finished-at="2019-03-30T17:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestEdureka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestAutomation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testedureka@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- parameterization.Parameterstest -->
+    </test> <!-- Chrome -->
+    <test name="firefox" duration-ms="6078" started-at="2019-03-30T17:15:37Z" finished-at="2019-03-30T17:15:43Z">
+      <class name="parameterization.Parameterstest">
+        <test-method status="PASS" signature="browserType(java.lang.String)[pri:0, instance:parameterization.Parameterstest@3ffc5af1]" name="browserType" is-config="true" duration-ms="3711" started-at="2019-03-30T17:15:37Z" finished-at="2019-03-30T17:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:parameterization.Parameterstest@3ffc5af1]" name="f" duration-ms="2365" started-at="2019-03-30T17:15:40Z" finished-at="2019-03-30T17:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestEdureka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestAutomation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testedureka@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- parameterization.Parameterstest -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

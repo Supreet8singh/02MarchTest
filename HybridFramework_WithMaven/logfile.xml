@@ -1,0 +1,32 @@
+2019-03-24 21:24:33,140 INFO  [Log] ================================= 
+2019-03-24 21:24:33,140 INFO  [Log] =========TC001========= 
+2019-03-24 21:24:33,140 INFO  [Log] ================================= 
+2019-03-24 21:24:45,721 INFO  [Log] Successfully opened the URL https://www.aapc.com/ 
+2019-03-24 21:24:45,797 INFO  [Log] Successfully hovered over the element xpath://*[@id="tm-233"] 
+2019-03-24 21:24:49,058 INFO  [Log] Successfully hovered and clicked on the element linkText:Individual 
+2019-03-24 21:24:49,058 INFO  [Log] =================END================ 
+2019-03-24 21:24:49,059 INFO  [Log] ================================= 
+2019-03-24 21:24:49,059 INFO  [Log] =========TC002========= 
+2019-03-24 21:24:49,059 INFO  [Log] ================================= 
+2019-03-24 21:24:49,104 INFO  [Log] Successfully fetched the value from element id:totalPrice 
+2019-03-24 21:24:53,225 INFO  [Log] Successfully clicked the element name:ctl00$Body$btnJoinNow 
+2019-03-24 21:24:53,270 INFO  [Log] Successfully fetched the value from element xpath://*[@id="ctl00_body_lblSummary_Total"] 
+2019-03-24 21:24:57,293 INFO  [Log] Successfully clicked the element xpath://*[@id="ctl00_body_btnLoginAndCreateAccountRedirect"]/a 
+2019-03-24 21:24:57,293 INFO  [Log] =================END================ 
+2019-03-24 21:24:57,293 INFO  [Log] ================================= 
+2019-03-24 21:24:57,293 INFO  [Log] =========TC003========= 
+2019-03-24 21:24:57,294 INFO  [Log] ================================= 
+2019-03-24 21:24:57,481 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPFirstName 
+2019-03-24 21:24:57,763 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPLastName 
+2019-03-24 21:24:57,963 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$rgUserName 
+2019-03-24 21:24:58,082 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$rgPassword 
+2019-03-24 21:24:58,210 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$ConfirmPassword 
+2019-03-24 21:24:58,516 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$Email 
+2019-03-24 21:24:58,644 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPCompany 
+2019-03-24 21:24:58,848 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPStreet 
+2019-03-24 21:24:59,031 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPCity 
+2019-03-24 21:24:59,148 INFO  [Log] Successfully selected value from dropdown element  name:ctl00$Body$ddlNPRegion 
+2019-03-24 21:24:59,200 INFO  [Log] Successfully selected value from dropdown element  name:ctl00$Body$ddlNPCountry 
+2019-03-24 21:24:59,337 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$txtNPPhone 
+2019-03-24 21:24:59,436 INFO  [Log] Successfully entered the text in the element name:ctl00$Body$tbxNPZip 
+2019-03-24 21:24:59,436 INFO  [Log] =================END================ 

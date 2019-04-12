@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[TC001]]>
+    </line>
+    <line>
+      <![CDATA[Successfully opened the URL https://www.aapc.com/]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered over the element xpath://*[@id="tm-233"]]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered and clicked on the element linkText:Individual]]>
+    </line>
+    <line>
+      <![CDATA[END]]>
+    </line>
+    <line>
+      <![CDATA[TC002]]>
+    </line>
+    <line>
+      <![CDATA[Successfully fetched the value from element id:totalPrice]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element name:ctl00$Body$btnJoinNow]]>
+    </line>
+    <line>
+      <![CDATA[Successfully fetched the value from element xpath://*[@id="ctl00_body_lblSummary_Total"]]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element xpath://*[@id="ctl00_body_btnLoginAndCreateAccountRedirect"]/a]]>
+    </line>
+    <line>
+      <![CDATA[END]]>
+    </line>
+    <line>
+      <![CDATA[TC003]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPFirstName]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPLastName]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$rgUserName]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$rgPassword]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$ConfirmPassword]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$Email]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPCompany]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPStreet]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPCity]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected value from dropdown element  name:ctl00$Body$ddlNPRegion]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected value from dropdown element  name:ctl00$Body$ddlNPCountry]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$txtNPPhone]]>
+    </line>
+    <line>
+      <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPZip]]>
+    </line>
+    <line>
+      <![CDATA[END]]>
+    </line>
+    <line>
+      <![CDATA[TC004]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered over the element xpath://*[@id="tm-148"]]]>
+    </line>
+    <line>
+      <![CDATA[Successfully hovered and clicked on the element linktext:AAPC Coder (Code Lookup)]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element xpath://*[@id="main_content"]/div[5]/div[1]/div[1]/div/div[1]/div/div/div[2]/a]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element id:ctl00_body_chkProFeeCoderMonthly]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element id:chkTermsAndConditions]]>
+    </line>
+    <line>
+      <![CDATA[Successfully clicked the element xpath://*[@id="ctl00_body_LinkButton1"]/strong]]>
+    </line>
+    <line>
+      <![CDATA[END]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39949" started-at="2019-03-30T17:32:58Z" finished-at="2019-03-30T17:33:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39949" started-at="2019-03-30T17:32:58Z" finished-at="2019-03-30T17:33:38Z">
+      <class name="mainScript.DriverScript">
+        <test-method status="PASS" signature="preRequiste()[pri:0, instance:mainScript.DriverScript@26be92ad]" name="preRequiste" is-config="true" duration-ms="677" started-at="2019-03-30T17:32:58Z" finished-at="2019-03-30T17:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiste -->
+        <test-method status="PASS" signature="tc01()[pri:1, instance:mainScript.DriverScript@26be92ad]" name="tc01" duration-ms="17349" started-at="2019-03-30T17:32:58Z" finished-at="2019-03-30T17:33:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC001]]>
+            </line>
+            <line>
+              <![CDATA[Successfully opened the URL https://www.aapc.com/]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered over the element xpath://*[@id="tm-233"]]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered and clicked on the element linkText:Individual]]>
+            </line>
+            <line>
+              <![CDATA[END]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc02()[pri:2, instance:mainScript.DriverScript@26be92ad]" name="tc02" duration-ms="7252" started-at="2019-03-30T17:33:16Z" finished-at="2019-03-30T17:33:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC002]]>
+            </line>
+            <line>
+              <![CDATA[Successfully fetched the value from element id:totalPrice]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element name:ctl00$Body$btnJoinNow]]>
+            </line>
+            <line>
+              <![CDATA[Successfully fetched the value from element xpath://*[@id="ctl00_body_lblSummary_Total"]]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element xpath://*[@id="ctl00_body_btnLoginAndCreateAccountRedirect"]/a]]>
+            </line>
+            <line>
+              <![CDATA[END]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="tc03()[pri:3, instance:mainScript.DriverScript@26be92ad]" name="tc03" duration-ms="2049" started-at="2019-03-30T17:33:23Z" finished-at="2019-03-30T17:33:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC003]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPFirstName]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPLastName]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$rgUserName]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$rgPassword]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$ConfirmPassword]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$Email]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPCompany]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPStreet]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPCity]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected value from dropdown element  name:ctl00$Body$ddlNPRegion]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected value from dropdown element  name:ctl00$Body$ddlNPCountry]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$txtNPPhone]]>
+            </line>
+            <line>
+              <![CDATA[Successfully entered the text in the element name:ctl00$Body$tbxNPZip]]>
+            </line>
+            <line>
+              <![CDATA[END]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc04()[pri:4, instance:mainScript.DriverScript@26be92ad]" name="tc04" duration-ms="12593" started-at="2019-03-30T17:33:25Z" finished-at="2019-03-30T17:33:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC004]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered over the element xpath://*[@id="tm-148"]]]>
+            </line>
+            <line>
+              <![CDATA[Successfully hovered and clicked on the element linktext:AAPC Coder (Code Lookup)]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element xpath://*[@id="main_content"]/div[5]/div[1]/div[1]/div/div[1]/div/div/div[2]/a]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element id:ctl00_body_chkProFeeCoderMonthly]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element id:chkTermsAndConditions]]>
+            </line>
+            <line>
+              <![CDATA[Successfully clicked the element xpath://*[@id="ctl00_body_LinkButton1"]/strong]]>
+            </line>
+            <line>
+              <![CDATA[END]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+      </class> <!-- mainScript.DriverScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

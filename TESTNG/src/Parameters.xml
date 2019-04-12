@@ -1,0 +1,28 @@
+<suite name="Suite" parallel="false">
+  <test name="Chrome">
+  
+  	<parameter name="browsertype" value = "chrome"/>
+  	<parameter name="url" value = "https://www.facebook.com/"/>
+  	<parameter name="frstname" value = "TestEdureka"/>
+  	<parameter name="lstname" value = "TestAutomation"/>
+  	<parameter name="emailid" value = "Testedureka@test.com"/>
+  	
+    <classes>
+      <class name="parameterization.Parameterstest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="firefox">
+  
+  	<parameter name="browsertype" value = "firefox"/>
+  	<parameter name="url" value = "https://www.facebook.com/"/>
+  	<parameter name="frstname" value = "TestEdureka"/>
+  	<parameter name="lstname" value = "TestAutomation"/>
+  	<parameter name="emailid" value = "Testedureka@test.com"/>
+  	
+    <classes>
+      <class name="parameterization.Parameterstest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

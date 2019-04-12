@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 30 23:02:58 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39949 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mainScript.DriverScript.tc01()'><b>tc01</b><br>Test class: mainScript.DriverScript<br/>
+<a href="#Output-1604002113" onClick='toggleBox("Output-1604002113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604002113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604002113">
+TC001<br/>
+Successfully opened the URL https://www.aapc.com/<br/>
+Successfully hovered over the element xpath://*[@id="tm-233"]<br/>
+Successfully hovered and clicked on the element linkText:Individual<br/>
+END<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>mainScript.DriverScript@26be92ad</td></tr>
+<tr>
+<td title='mainScript.DriverScript.tc02()'><b>tc02</b><br>Test class: mainScript.DriverScript<br/>
+<a href="#Output-1470911015" onClick='toggleBox("Output-1470911015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470911015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470911015">
+TC002<br/>
+Successfully fetched the value from element id:totalPrice<br/>
+Successfully clicked the element name:ctl00$Body$btnJoinNow<br/>
+Successfully fetched the value from element xpath://*[@id="ctl00_body_lblSummary_Total"]<br/>
+Successfully clicked the element xpath://*[@id="ctl00_body_btnLoginAndCreateAccountRedirect"]/a<br/>
+END<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>mainScript.DriverScript@26be92ad</td></tr>
+<tr>
+<td title='mainScript.DriverScript.tc03()'><b>tc03</b><br>Test class: mainScript.DriverScript<br/>
+<a href="#Output-695530017" onClick='toggleBox("Output-695530017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-695530017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-695530017">
+TC003<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPFirstName<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPLastName<br/>
+Successfully entered the text in the element name:ctl00$Body$rgUserName<br/>
+Successfully entered the text in the element name:ctl00$Body$rgPassword<br/>
+Successfully entered the text in the element name:ctl00$Body$ConfirmPassword<br/>
+Successfully entered the text in the element name:ctl00$Body$Email<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPCompany<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPStreet<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPCity<br/>
+Successfully selected value from dropdown element  name:ctl00$Body$ddlNPRegion<br/>
+Successfully selected value from dropdown element  name:ctl00$Body$ddlNPCountry<br/>
+Successfully entered the text in the element name:ctl00$Body$txtNPPhone<br/>
+Successfully entered the text in the element name:ctl00$Body$tbxNPZip<br/>
+END<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>mainScript.DriverScript@26be92ad</td></tr>
+<tr>
+<td title='mainScript.DriverScript.tc04()'><b>tc04</b><br>Test class: mainScript.DriverScript<br/>
+<a href="#Output-1730337646" onClick='toggleBox("Output-1730337646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730337646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730337646">
+TC004<br/>
+Successfully hovered over the element xpath://*[@id="tm-148"]<br/>
+Successfully hovered and clicked on the element linktext:AAPC Coder (Code Lookup)<br/>
+Successfully clicked the element xpath://*[@id="main_content"]/div[5]/div[1]/div[1]/div/div[1]/div/div/div[2]/a<br/>
+Successfully clicked the element id:ctl00_body_chkProFeeCoderMonthly<br/>
+Successfully clicked the element id:chkTermsAndConditions<br/>
+Successfully clicked the element xpath://*[@id="ctl00_body_LinkButton1"]/strong<br/>
+END<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>mainScript.DriverScript@26be92ad</td></tr>
+</table><p>
+</body>
+</html>
